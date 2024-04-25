@@ -1,0 +1,51 @@
+.form{
+    display: flex;
+    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    min-width: 80vh;
+    flex-direction: column;
+
+
+    h1{
+        text-align: center;
+        font-size: 6vh;
+        color: rgb(104, 40, 40);
+        padding-right: 6%;
+        margin-bottom: 10px;
+    }
+    .user{
+        padding-right:238px;
+        
+    }
+    p{  margin-bottom: 5px;
+        font-size: 25px;
+    }
+    .pass{
+       padding-right: 330px;
+    }
+    input{
+        height: 50px;
+        width:300px;
+        margin-right: 17vh;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: 1;
+    }
+
+    button{
+        margin-top: 10px;
+        height: 50px;
+        width:310px;
+        margin-right: 17vh;
+        color: white;
+        background-color: rgb(49, 254, 49);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: 0;
+    }
+    .res{
+     padding-top: 30px;
+     text-align: center;
+    
+    }
+}
